@@ -34,4 +34,4 @@ class Car(models.Model):
         ordering = ("model", )
 
     def __str__(self) -> str:
-        return f"{self.model}"
+        return self.model
